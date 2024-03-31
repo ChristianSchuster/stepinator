@@ -1,0 +1,98 @@
+body {
+    min-height: 100%;
+    background: rgb(252,252,242);
+background: linear-gradient(90deg, rgba(252,252,242,1) 0%, rgba(255,255,255,1) 35%, rgba(241,250,242,1) 100%);
+}
+
+#topnav {
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Condition the app container */
+#app {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 256px;
+}
+#app h1 {
+    text-align: center;
+}
+#app a {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img.responsive {
+    width: 100%;
+    height: auto;
+  }
+img.app-icon {
+    border-radius: 65px;
+    
+    /* max-width: 256px; */
+
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Make the top nav full width */
+#content {
+    font-family: 'Rubik', sans-serif;
+    max-width: 512px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+#content ol {
+    text-align: left;
+    display: inline-block;
+}
+
+
+
+#content.policy {
+    text-align: left;
+}
+
+
+
+body #page-wrapper {
+    min-height: 100vh;
+    position: relative;
+}
+#content-wrapper {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+/* Footer */
+#footer {
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+    /* padding: 20px 0px; */
+}
+#footer a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#footer ul {
+    padding: 0px;
+}
+#footer ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
